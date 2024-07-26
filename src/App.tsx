@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Numero1 from "./ejercicios/Numero1";
+import Numero2 from "./ejercicios/Numero2";
+import Numero3 from "./ejercicios/Numero3";
+import Numero4 from "./ejercicios/Numero4";
+import Numero5 from "./ejercicios/Numero5";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>
+        <h2>TALLER 1</h2>
+      </div>
+      <Numero1/>
+      <hr />
+      <Numero2/>
+      <hr />
+      <Numero3/>
+      <hr />
+      <Numero4/>
+      <hr />
+      <Numero5/>
     </div>
+
+
   );
 }
 
